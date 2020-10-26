@@ -125,10 +125,12 @@ dependencies:
     - appdirs==1.4.4
     - bs4==0.0.1
     - cssselect==1.1.0
+    - dnspython==2.0.0
     - fake-useragent==0.1.11
     - lxml==4.5.2
     - parse==1.15.0
     - pyee==7.0.2
+    - pymongo==3.11.0
     - pyppeteer==0.2.2
     - pyquery==1.4.1
     - tqdm==4.47.0
