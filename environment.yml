@@ -17,3 +17,4 @@ dependencies:
     - contractions
     - dnspython
     - pymongo
+    - demjson
