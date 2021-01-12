@@ -18,3 +18,4 @@ dependencies:
     - dnspython
     - pymongo
     - demjson
+    - python-dotenv
