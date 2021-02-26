@@ -12,6 +12,8 @@ dependencies:
   - inflect
   - scikit-learn
   - gensim
+  - networkx
+  - pygraphviz
   - pip:
     - beautifulsoup4
     - contractions
@@ -19,3 +21,4 @@ dependencies:
     - pymongo
     - demjson
     - python-dotenv
+    - tqdm
