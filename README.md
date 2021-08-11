@@ -12,8 +12,11 @@ PYTHONHASHSEED=0 jupyter notebook
 * `UC Berkeley Majors & Minors Scraping` - This notebook is used for scraping all the majors and minors as part of the student account registeration. This is yet to be used until the student accounts project is back online.
 * `Generic Club Recommendations` - This notebook contains the logic for the club recommendations. Includes many charts and visual graphs for debugging and post-analysis based on distributions and network analysis.
 
+## Note about adding dependencies
+Normally, we'd use `conda env export "environment.yml"` to save our dependencies, but it saves the dependencies specific to the OS you're running it on. As a result
 
-# Note about reproducibility with ML models
+
+## Note about reproducibility with ML models
  You need to set the `PYTHONHASHSEED` to `0` to fix the seed used for hash randomization. It's needed along with setting the random seed for the Word2Vec model to `42` and using only 1 worker to create the exact same model with the same exact data 100% of the time.
 
 * Source: https://stackoverflow.com/a/30586046
